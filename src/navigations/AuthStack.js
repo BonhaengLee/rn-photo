@@ -11,6 +11,7 @@ const AuthStack = () => {
     <Stack.Navigator
       screenOptions={{
         contentStyle: { backgroundColor: 'white' },
+        headerShown: false,
       }}
     >
       <Stack.Screen name={AuthRoutes.SIGN_IN} component={SignInScreen} />
