@@ -1,5 +1,10 @@
 import React from 'react';
-import { KeyboardAvoidingView, Platform, Pressable } from 'react-native';
+import {
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+} from 'react-native';
 import PropTypes from 'prop-types';
 
 const SafeInputView = ({ children }) => {
